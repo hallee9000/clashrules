@@ -150,14 +150,15 @@ async function main() {
   // 6. 提交到 Git
   try {
     console.log('正在提交并推送更新...');
-    execSync(`git add ${CUSTOM_YAML_PATH}`, { stdio: 'inherit' });
+    const execOptions = { stdio: 'inherit', cwd: __dirname };
+    execSync(`git add ${CUSTOM_YAML_PATH}`, execOptions);
     
     const commitMsg = command === 'add' 
       ? `feat: add ${changedCount} rules via script` 
       : `chore: remove ${changedCount} rules via script`;
       
-    execSync(`git commit -m "${commitMsg}"`, { stdio: 'inherit' });
-    execSync('git push', { stdio: 'inherit' });
+    execSync(`git commit -m "${commitMsg}"`, execOptions);
+    execSync('git push', execOptions);
     console.log('成功推送到远程仓库。');
   } catch (err) {
     console.error('Git 操作失败:', err.message);
