@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 const fs = require('fs');
-const CONFIG_PATH = '/Users/hal/.config/clash/Feng.yaml'
+const CONFIG_PATH = '/Users/hal/projects/clashrules/config.yaml'
 const GITHUB_TOKEN = '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'
 const GIST_ID = '493b1e462e2944922f85f74f8a1028e2'
 
