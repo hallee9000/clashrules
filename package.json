@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
+    "proxyeasy": "./index.js",
     "pe": "./index.js"
   },
   "scripts": {
