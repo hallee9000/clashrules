@@ -69,3 +69,4 @@ payload:
   - DOMAIN-SUFFIX,mixpanel.com
   - DOMAIN-SUFFIX,mxpnl.com
   - DOMAIN-SUFFIX,julebu.co
+  - DOMAIN,apps.apple.com
