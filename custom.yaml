@@ -1,11 +1,11 @@
 # NAME: Custom
 # AUTHOR: hallee
 # REPO: https://github.com/hallee9000/clashrules
-# UPDATED: 2026-05-28 16:15:54
-# DOMAIN: 0
+# UPDATED: 2026-06-13 13:36:51
+# DOMAIN: 1
 # DOMAIN-KEYWORD: 0
-# DOMAIN-SUFFIX: 62
-# TOTAL: 62
+# DOMAIN-SUFFIX: 63
+# TOTAL: 64
 payload:
   - DOMAIN-SUFFIX,pocketcasts.com
   - DOMAIN-SUFFIX,blubrry.com
@@ -70,3 +70,4 @@ payload:
   - DOMAIN-SUFFIX,mxpnl.com
   - DOMAIN-SUFFIX,julebu.co
   - DOMAIN,apps.apple.com
+  - DOMAIN-SUFFIX,test-example.com
